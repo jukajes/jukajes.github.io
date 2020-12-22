@@ -1,6 +1,15 @@
-.flex-container {
-    display: flex;
-    margin-left: auto;
-    margin-right: auto;
-    width: 8em
+.eye {
+    margin: auto;
+    width: 500px;
+    height: 500px;
 }
+.eye:hover {
+    margin: auto;
+    width: 500px;
+    height: 500px;
+    animation: mymove 8s infinite;
+  }
+  
+  @keyframes mymove {
+    50% {transform: rotate(180deg);}
+  }
