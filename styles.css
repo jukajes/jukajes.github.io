@@ -1,3 +1,21 @@
+body {
+	background: linear-gradient(-45deg,#b40061,rgb(0, 255, 0), #ff0000, #001aff);
+	background-size: 400% 400%;
+	animation: gradient 15s ease infinite;
+}
+
+@keyframes gradient {
+	0% {
+		background-position: 0% 50%;
+	}
+	50% {
+		background-position: 100% 50%;
+	}
+	100% {
+		background-position: 0% 50%;
+	}
+}
+
 .eye {
     margin: auto;
     width: 500px;
@@ -7,7 +25,7 @@
     margin: auto;
     width: 500px;
     height: 500px;
-    animation: mymove 8s infinite;
+    animation: mymove 6s infinite;
   }
   
   @keyframes mymove {
