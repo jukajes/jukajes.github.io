@@ -13,7 +13,7 @@ body {
 }
 .flip-card {
     background-color: transparent;
-    width: 300px;
+    width: 200px;
     height: 300px;
     perspective: 1000px; 
   }
@@ -49,8 +49,22 @@ body {
   
   /* Style the back side */
   .flip-card-back {
-    background-color: black;
-    color: white;
+    border-style: dotted;
+    border-color: white;
+    border-radius: 20px;
+        background-color: white;
+    color: black;
     transform: rotateY(180deg);
   }
+
+
+  .logo-img {
+    width: 40px;
+  }
+
+  .face-img {
+    height: 170px;
+  }
+
+
   
