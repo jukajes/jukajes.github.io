@@ -1,0 +1,27 @@
+#kuva1 {
+float: left;
+border: 1em dotted;
+border-color: orange;
+margin: 15px;
+}
+#kuva2 {
+float: right;
+border-color: brown;
+border-top: 0.5em solid;
+border-bottom: 0.5em solid;
+margin: 15px;
+
+}
+
+a:active{
+color: darkorchid;
+}
+a:hover {
+    color: gray;
+}
+a:visited {
+    color: black;
+}
+a:link {
+    color: green;
+}
